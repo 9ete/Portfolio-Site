@@ -1,6 +1,68 @@
 
+	.main {
+		padding: 100px 0;
+	}
 
-.title a {
-		text-decoration:none;
-		color:white;
+	a {text-decoration:none;}
+
+	/* add coloring and no decoration to title a */
+	.title a,
+	h2, h3, h4  {
+		font-family: 'Changa One', cursive;
+	}
+
+	nav a, 
+	aside h4 {
+		font-family: 'Lobster', cursive;
+	}
+
+	.title a,
+	nav a,
+	nav a:hover,
+	nav a:visited,
+	h1, h2, h3, h4 {
+		color: darkorange;
+		text-shadow: 1px 1px 1px black;
+	}
+
+	p {font-family: 'Merriweather', serif;}
+
+	/* add width to header */
+	.header-container {
+		width:100%;
+		z-index:1;
+	}
+
+	/* update background color */
+	.header-container,
+	.footer-container,
+	.main aside,
+	nav a {
+		background: rgb(0,128,0); /* The Fallback */
+		background: rgba(0,128,0, 0.5); 
+		border-color: rgba(0,128,0); /* The Fallback */
+		border-color: rgba(0,128,0, 0.8);
+	}
+
+	nav a {width:18%;}
+
+	.area-two article {
+		width:100%;
+	}
+
+	.area-two h2 {
+		text-align: center;
+	}
+
+	.area-two p {
+		width: 70%;
+		margin: auto;
+	}
+
+	.prog-lang-holder img {
+		width:200px;
+	}
+
+	.prog-lang-holder .html5-img {
+		width:285px;
 	}
