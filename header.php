@@ -21,9 +21,29 @@
         <link rel="stylesheet" href="css/style.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="js/vendor/jquery.sticky.js"></script>
+		<script src="js/plugins.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Merriweather' rel='stylesheet' type='text/css'>
         
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        		<div id="header-container" class="header-container">
+            <header class="wrapper clearfix">
+			<h1 class="title"><a href="#area-one">Pete Lower</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#area-two">Dev</a></li>
+                        <li><a href="#area-three">Music</a></li>
+                        <li><a href="#area-four">Life</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            
