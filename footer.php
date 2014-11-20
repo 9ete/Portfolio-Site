@@ -4,7 +4,7 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h4>footer</h4>
+                <h4>&copy; <?php echo date('Y'); ?> Pete Lower</h4>
             </footer>
         </div>
 
