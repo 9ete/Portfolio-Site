@@ -109,13 +109,13 @@
             <div>
                 <!-- <img u="image" src="../slider/img/1920/red.jpg" /> -->
                 <img u="image" src="img/seattle-bridge-web-developer-pete-lower-wordpress-php.JPG" />
-                <div u="caption" t="NO" t3="RTT|2" r3="137.5%" du3="3000" d3="500" style="position: absolute; width: 445px; height: 300px; top: 100px; left: 600px;">
+                <!-- <div u="caption" t="NO" t3="RTT|2" r3="137.5%" du3="3000" d3="500" style="position: absolute; width: 445px; height: 300px; top: 100px; left: 600px;">
                     <img src="../slider/img/new-site/c-phone.png" style="position: absolute; width: 445px; height: 300px; top: 0px; left: 0px;" />
                     <img u="caption" t="CLIP|LR" du="4000" t2="NO" src="../slider/img/new-site/c-jssor-slider.png" style="position: absolute; width: 102px; height: 78px; top: 70px; left: 130px;" />
                     <img u="caption" t="ZMF|10" t2="NO" src="../slider/img/new-site/c-text.png" style="position: absolute; width: 80px; height: 53px; top: 153px; left: 163px;" />
                     <img u="caption" t="RTT|10" t2="NO" src="../slider/img/new-site/c-fruit.png" style="position: absolute; width: 140px; height: 90px; top: 60px; left: 220px;" />
                     <img u="caption" t="T" du="4000" t2="NO" src="../slider/img/new-site/c-navigator.png" style="position: absolute; width: 200px; height: 155px; top: 57px; left: 121px;" />
-                </div>
+                </div> -->
                 <div u="caption" t="RTT|2" r="-75%" du="1600" d="2500" t2="NO" style="position: absolute; width: 470px; height: 220px; top: 120px; left: 650px;">
                     <img src="../slider/img/new-site/c-phone-horizontal.png" style="position: absolute; width: 470px; height: 220px; top: 0px; left: 0px;" />
                     <img u="caption" t3="MCLIP|L" du3="2000" src="../slider/img/new-site/c-slide-1.jpg" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
