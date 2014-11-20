@@ -22,3 +22,10 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+//Sticky.js code
+(function ($) {
+    $(document).ready(function(){
+        $("#header-container").sticky({topSpacing:0});
+    });
+}(jQuery));
