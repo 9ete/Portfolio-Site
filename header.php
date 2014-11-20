@@ -34,12 +34,13 @@
         <![endif]-->
         		<div id="header-container" class="header-container">
             <header class="wrapper clearfix">
-			<h1 class="title"><a href="#area-one">Pete Lower</a></h1>
+			<h1 class="title"><a href="/">PeteLower.Com</a></h1>
                 <nav>
                     <ul>
                         <li><a href="#area-two">Dev</a></li>
                         <li><a href="#area-three">Music</a></li>
                         <li><a href="#area-four">Life</a></li>
+                        <li><a href="http://peteygreen.wordpress.com">Blog</a></li>
                     </ul>
                 </nav>
             </header>
