@@ -108,7 +108,7 @@
             height: 500px; overflow: hidden;">
             <div>
                 <!-- <img u="image" src="../slider/img/1920/red.jpg" /> -->
-                <img u="image" src="img/seattle-web-developer-pete-lower-wordpress-php.JPG" />
+                <img u="image" src="img/seattle-bridge-web-developer-pete-lower-wordpress-php.JPG" />
                 <div u="caption" t="NO" t3="RTT|2" r3="137.5%" du3="3000" d3="500" style="position: absolute; width: 445px; height: 300px; top: 100px; left: 600px;">
                     <img src="../slider/img/new-site/c-phone.png" style="position: absolute; width: 445px; height: 300px; top: 0px; left: 0px;" />
                     <img u="caption" t="CLIP|LR" du="4000" t2="NO" src="../slider/img/new-site/c-jssor-slider.png" style="position: absolute; width: 102px; height: 78px; top: 70px; left: 130px;" />
@@ -125,36 +125,38 @@
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;font-family:'Lobster', cursive;">Welcome!
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        color: #FFFFFF;font-family:'Changa One', cursive;">
+                       I'm Pete Lower, you're friendly neighborhood programmer!
                 </div>
             </div>
             <div>
-                <img u="image" src="../slider/img/1920/purple.jpg" />
+                <!-- <img u="image" src="../slider/img/1920/purple.jpg" /> -->
+                <img u="image" src="img/seattle-web-developer-pete-lower-wordpress-php.JPG" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;font-family:'Changa One', cursive;">Emerald City
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        <!-- over slider text -->
                 </div>
             </div>
             <div>
-                <img u="image" src="../slider/img/1920/blue.jpg" />
+               <!--  <img u="image" src="../slider/img/1920/blue.jpg" /> -->
+               <img u="image" src="img/in-studio-pete-lower-seattle-rock-band.jpg" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #FFFFFF;">Touch Swipe Slider
+                        color: #FFFFFF;"><!-- over slider text -->
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
+                        color: #FFFFFF;font-family:'Changa One', cursive;">In Studio
+                        <!-- over slider text -->
                 </div>
             </div>
             <!-- Example to add fixed static share buttons in slider BEGIN -->
@@ -259,7 +261,7 @@
             */
             .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
             {
-                background: url(../img/b21.png) no-repeat;
+                background: url(../slider/img/b21.png) no-repeat;
                 overflow:hidden;
                 cursor: pointer;
             }
@@ -291,7 +293,7 @@
             	position: absolute;
             	cursor: pointer;
             	display: block;
-                background: url(../img/a21.png) center center no-repeat;
+                background: url(../slider/img/a21.png) center center no-repeat;
                 overflow: hidden;
             }
             .jssora21l { background-position: -3px -33px; }
