@@ -66,3 +66,8 @@
 	.prog-lang-holder .html5-img {
 		width:285px;
 	}
+
+	.github-ribbon {
+		z-index: 1;
+		position: relative;
+	}
