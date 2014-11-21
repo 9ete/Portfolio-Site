@@ -21,7 +21,7 @@
                 </aside> -->
 
             </div> <!-- #main -->
-            <div id="area-two" class="main wrapper clearfix area-two">
+            <div id="development" class="main wrapper clearfix area-two development">
 
                 <article>
                     <header>
@@ -58,7 +58,7 @@
                 </aside> -->
 
             </div> <!-- #main -->
-            <div id="area-three" class="main wrapper clearfix area-three">
+            <div id="music" class="main wrapper clearfix area-three music">
 
                 <article>
                     <header>
@@ -70,10 +70,7 @@
                         <h3><!-- (Recorded Guitar, Vocals, Wrote and Produced) --></h3>
                         <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/34158255&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                     </section>
-                    <section>
-                        <h2>Item 9 & The Mad Hatters - The Fall of Gondolin</h2>
-                        <iframe style='max-width:100%' width="560" height="315" src="//www.youtube.com/embed/u9Aof9DYEUQ" frameborder="0" allowfullscreen></iframe>
-                    </section>
+                    
                     <footer>
                         <!-- <h3></h3>
                         <p></p> -->
@@ -83,10 +80,13 @@
                 <aside>
                     <h4>Item 9 & The Mad Hatters - They're Watchin' You</h4>
                     <iframe width="287" height="161" src="//www.youtube.com/embed/Z5NtNKJMrTg" frameborder="0" allowfullscreen></iframe>
+                    <br />
+                    <h4>Item 9 & The Mad Hatters - The Fall of Gondolin</h4>
+                    <iframe width="287" height="161" src="//www.youtube.com/embed/u9Aof9DYEUQ" frameborder="0" allowfullscreen></iframe>
                 </aside>
 
             </div> <!-- #main -->
-            <div id="area-four" class="main wrapper clearfix area-four">
+            <div id="life" class="main wrapper clearfix area-four life">
 
                 <article>
                     <header>
@@ -98,6 +98,7 @@
                         <p>Contact me today: <br/>
                         	<a href='mailto:pete@petelower.com'>pete@petelower.com</a><br/>
                         	<a href='tel:+13195941786'>319 594 1786</a></p>
+                        	<?php outputContactForm(); ?>
                     </section>
                     
                     <footer>
