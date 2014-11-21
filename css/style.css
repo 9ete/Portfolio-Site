@@ -83,8 +83,15 @@
 		text-shadow: 1px 1px 1px black;
 	}
 
-	p {font-family: 'Merriweather', serif;}
+	p {
+		text-align:justify;
+		font-family: 'Merriweather', serif;
+	}
 
+
+	header h2 {
+			margin-top: 0;
+		}
 /* ===== Initializr Styles ================================================== */
 
 	body {
@@ -284,10 +291,10 @@
 			    }
 	}
 @media only screen and (min-width: 768px) and (max-width: 960px) {
-	.main article {
+	/*.main article {
 			        float: left;
 			        width: 57%;
-			    }
+			    }*/
 }
 	@media only screen and (min-width: 768px)  {
 
@@ -328,10 +335,15 @@
 			        width: 1026px; /* 1140px - 10% for margins */
 			        margin: 0 auto;
 			    }
-
+			article {
+					width: 50%;
+					display: inline-block;
+				}
 			.main aside {
-			        float: right;
-			        width: 28%;
+			        display: inline-block;
+					float: right;
+					text-align: center;
+					vertical-align: top;
 			    }
 	}
 
@@ -344,6 +356,22 @@
 			width: 70%;
 			margin: auto;
 		}
+
+
+		article {
+					width: 90%;
+					display: block;
+					margin:auto;
+				}
+
+		.main aside {
+		        display: block;
+				float: none;
+				text-align: center;
+				vertical-align: top;
+				width: 90%;
+				margin:auto;
+		    }
 
 		iframe {
 			display:block;
