@@ -1,4 +1,5 @@
 <?php
+/*
 	function outputContactForm() {
 		if(isset($_POST['email'])) { 
 			sendMailForm(); 
@@ -151,4 +152,5 @@
 		<?php
 		}
 	}
+	*/
 ?>
