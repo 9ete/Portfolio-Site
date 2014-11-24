@@ -2,8 +2,8 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
     <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="../slider/js/jssor.js"></script>
-    <script type="text/javascript" src="../slider/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/vendor/jssor/jssor.js"></script>
+    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
     <script>
         jQuery(document).ready(function ($) {
 
@@ -117,11 +117,11 @@
                     <img u="caption" t="T" du="4000" t2="NO" src="../slider/img/new-site/c-navigator.png" style="position: absolute; width: 200px; height: 155px; top: 57px; left: 121px;" />
                 </div> -->
                 <div u="caption" t="RTT|2" r="-75%" du="1600" d="2500" t2="NO" style="position: absolute; width: 470px; height: 220px; top: 120px; left: 650px;">
-                    <img src="../slider/img/new-site/c-phone-horizontal.png" style="position: absolute; width: 470px; height: 220px; top: 0px; left: 0px;" />
+                    <img src="/img/new-site/c-phone-horizontal.png" style="position: absolute; width: 470px; height: 220px; top: 0px; left: 0px;" />
                     <img u="caption" t3="MCLIP|L" du3="2000" src="img/nacho-driving-ipad.PNG" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
                     <img u="caption" t="MCLIP|R" du="2000" t2="NO" src="img/european-motors-web-development.jpg" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
-                    <img u="caption" t="RTTL|BR" x="500%" y="500%" du="1000" d="-3000" r="-30%" t3="L" x3="70%" du3="1600" src="../slider/img/new-site/c-finger-pointing.png" style="position: absolute; width: 257px; height: 300px; top: 80px; left: 200px;" />
-                    <img src="../slider/img/new-site/c-navigator-horizontal.png" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
+                    <img u="caption" t="RTTL|BR" x="500%" y="500%" du="1000" d="-3000" r="-30%" t3="L" x3="70%" du3="1600" src="/img/new-site/c-finger-pointing.png" style="position: absolute; width: 257px; height: 300px; top: 80px; left: 200px;" />
+                    <img src="/img/new-site/c-navigator-horizontal.png" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
                 </div>
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
