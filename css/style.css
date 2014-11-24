@@ -338,6 +338,7 @@
 			article {
 					width: 50%;
 					display: inline-block;
+					float:left;
 				}
 			.main aside {
 			        display: block;
