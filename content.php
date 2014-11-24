@@ -1,25 +1,6 @@
 <?php
 
 ?>
-			<!-- <div id="area-one" class="main wrapper clearfix area-one">
-                <article>
-                    <header>
-                        <h2>Slider Header</h2>
-                    </header>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>slider here</p>
-                    </section>
-                    <footer>
-                        <h3>Slider Nav</h3>
-                    </footer>
-                </article> -->
-
-                <!-- <aside>
-                    <h4>aside</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-                </aside> -->
-
             </div> <!-- #main -->
             <div id="development" class="main wrapper clearfix area-two development">
 
