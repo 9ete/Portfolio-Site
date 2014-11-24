@@ -340,7 +340,7 @@
 					display: inline-block;
 				}
 			.main aside {
-			        display: inline-block;
+			        display: block;
 					float: right;
 					text-align: center;
 					vertical-align: top;
