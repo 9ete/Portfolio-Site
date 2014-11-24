@@ -4,7 +4,7 @@
     <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
     <script type="text/javascript" src="js/vendor/jssor/jssor.js"></script>
     <script type="text/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
-    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.config.js"></script>
+    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script>
     <link rel="stylesheet" href="css/jssor.css">
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
