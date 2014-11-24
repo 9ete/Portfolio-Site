@@ -12,12 +12,9 @@
                 (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
                     header('X-UA-Compatible: IE=edge,chrome=1');
         ?>
-        <title>Pete Lower | Musicians and Programmer</title>
+        <title>Pete Lower | Musician and Programmer</title>
         <meta name="description" content="I'm Pete Lower, I write code for the Internet (PHP, Javascript) and make music (i9mh.com).">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        
-
     </head>
     <body>
         <!--[if lt IE 7]>
