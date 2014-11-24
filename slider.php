@@ -31,7 +31,7 @@
                 $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
                 $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
                 //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideHeight: 400,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
                 $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
                 $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
                 $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
@@ -93,7 +93,7 @@
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
     <div id="slider1_container" style="position: relative; margin: 0 auto;
-        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        top: 0px; left: 0px; width: 1300px; height: 400px; overflow: hidden;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
@@ -105,7 +105,7 @@
         </div>
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
-            height: 500px; overflow: hidden;">
+            height: 400px; overflow: hidden;">
             <div>
                 <!-- <img u="image" src="../slider/img/1920/red.jpg" /> -->
                 <img u="image" src="img/seattle-bridge-web-developer-pete-lower-wordpress-php.JPG" />
@@ -123,11 +123,11 @@
                     <img u="caption" t="RTTL|BR" x="500%" y="500%" du="1000" d="-3000" r="-30%" t3="L" x3="70%" du3="1600" src="../slider/img/new-site/c-finger-pointing.png" style="position: absolute; width: 257px; height: 300px; top: 80px; left: 200px;" />
                     <img src="../slider/img/new-site/c-navigator-horizontal.png" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
                 </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #FFFFFF;font-family:'Lobster', cursive;">Welcome!
                 </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 120px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;font-family:'Changa One', cursive;">
                        I'm Pete Lower, you're friendly neighborhood programmer!
@@ -136,11 +136,11 @@
             <div>
                 <!-- <img u="image" src="../slider/img/1920/purple.jpg" /> -->
                 <img u="image" src="img/seattle-web-developer-pete-lower-wordpress-php.JPG" />
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #FFFFFF;font-family:'Changa One', cursive;">Emerald City
                 </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 120px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
                         <!-- over slider text -->
@@ -149,11 +149,11 @@
             <div>
                <!--  <img u="image" src="../slider/img/1920/blue.jpg" /> -->
                <img u="image" src="img/in-studio-pete-lower-seattle-rock-band.jpg" />
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #FFFFFF;"><!-- over slider text -->
                 </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
+                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 120px; padding: 5px;
                     text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;font-family:'Changa One', cursive;">In Studio
                         <!-- over slider text -->
