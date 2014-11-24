@@ -1,11 +1,4 @@
-    <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
-    <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="js/vendor/jssor/jssor.js"></script>
-    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
-    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script>
-    <link rel="stylesheet" href="css/jssor.css">
+    
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
     <div id="slider1_container" style="position: relative; margin: 0 auto;
