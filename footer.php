@@ -19,7 +19,7 @@
             <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
                 <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=style.css,normalize.min.css" />
             <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
-                <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=style.css,normalize.min.css" />
+                <link type="text/css" rel="stylesheet" href="/min/?b=css&amp;f=normalize.min.css,style.css" />
             <? endif; ?>
 
             <!-- FONTS -->
