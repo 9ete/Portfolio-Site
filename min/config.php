@@ -10,7 +10,7 @@
 /**
  * Allow use of the Minify URI Builder app. Only set this to true while you need it.
  */
-$min_enableBuilder = true;
+$min_enableBuilder = false;
 
 /**
  * If non-empty, the Builder will be protected with HTTP Digest auth.
@@ -27,7 +27,7 @@ $min_builderPassword = 'admin';
  * If you want to use a custom error logger, set this to your logger
  * instance. Your object should have a method log(string $message).
  */
-$min_errorLogger = true;
+$min_errorLogger = false;
 
 
 /**
