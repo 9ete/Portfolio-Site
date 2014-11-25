@@ -29,3 +29,9 @@
         $("#header-container").sticky({topSpacing:0});
     });
 }(jQuery));
+
+(function ($) {
+    $(document).ready(function(){
+        $("#github-ribbon").sticky({topSpacing:0});
+    });
+}(jQuery));
