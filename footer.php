@@ -30,16 +30,12 @@
             <!-- UNMINIFIED SCRIPTS -->
             <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-            <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
-                <script type="application/javascript" src="/min/?b=system/petelower/js&amp;f=vendor/modernizr-2.6.2-respond-1.1.0.min.js,vendor/jquery.sticky.js,plugins.js,main.js"></script>
-            <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
-                <script type="text/javascript" src="/min/?b=js&amp;f=vendor/jquery.sticky.js,plugins.js,main.js"></script>
-            <? else : ?>
+            
                 <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
                 <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script>
                 <script type="application/javascript" src="js/plugins.js"></script>
                 <script type="application/javascript" src="js/main.js"></script>
-            <? endif; ?>
+            
 
             <?php
                 //If the user is not on mobile we will show the slider
@@ -49,19 +45,12 @@
                         <!-- it works the same with all jquery version from 1.x to 2.x -->
                         <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
                         <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
-                        <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
-                            <script type="text/javascript" src="/min/b=system/petelower/js/vendor/jssor&amp;f=jssor.js,jssor.slider.js,jssor.slider.settings.js"></script>
-                            <link type="text/css" rel="stylesheet" href="/min/f=css/jssor.css" />
-                        <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
-                            <script type="text/javascript" src="/min/?b=js/vendor/jssor&amp;f=jssor.js,jssor.slider.js,jssor.slider.settings.js"></script>
-                            <link type="text/css" rel="stylesheet" href="/min/?f=css/jssor.css" />
-                        <? else : ?>
+                        
                             <script type="application/javascript" src="js/vendor/jssor/jssor.js"></script>
                             <script type="application/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
                             <script type="application/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script>
                             <link href="css/jssor.css" rel="stylesheet" type="text/css"> 
                         <?php
-                        endif;
                     }
             ?>
         
