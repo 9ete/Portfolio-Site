@@ -15,7 +15,12 @@
                         <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
                         <link rel="stylesheet" href="css/style.css" type="text/css"> 
                     -->
+
+            <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
                 <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=style.css,normalize.min.css" />
+            <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
+                <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=style.css,normalize.min.css" />
+            <? endif; ?>
 
             <!-- FONTS -->
                 <link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Merriweather' rel='stylesheet' type='text/css'>
