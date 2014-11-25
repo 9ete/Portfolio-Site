@@ -10,15 +10,22 @@
 
         <!-- STYLESHEETS -->
         <link rel="stylesheet" href="css/normalize.min.css">
-        <!-- <link rel="stylesheet" href="css/main.css"> -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
 
         <!-- FONTS -->
         <link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Merriweather' rel='stylesheet' type='text/css'>
         
         <!-- SCRIPTS -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script>
+        <script type="application/javascript" src="js/plugins.js"></script>
+        <script type="application/javascript" src="js/plugins.js"></script>
+        <script type="application/javascript" src="js/main.js"></script>
         <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> -->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script> -->
 
         <?php
             //If the user is not on mobile we will show the slider
@@ -28,22 +35,12 @@
                     <!-- it works the same with all jquery version from 1.x to 2.x -->
                     <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
                     <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
-                    <script type="text/javascript" src="js/vendor/jssor/jssor.js"></script>
-                    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
-                    <script type="text/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script>
-                    <link rel="stylesheet" href="css/jssor.css"> <?php
+                    <script type="application/javascript" src="js/vendor/jssor/jssor.js"></script>
+                    <script type="application/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
+                    <script type="application/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script>
+                    <link href="css/jssor.css" rel="stylesheet" type="text/css"> <?php
                 }
         ?>
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="js/vendor/jquery.sticky.js"></script>
-        <script src="js/plugins.js"></script>
-
-        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script> -->
-
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- <script>
