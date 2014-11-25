@@ -4,14 +4,14 @@
     <div id="slider1_container" style="position: relative; margin: 0 auto;
         top: 0px; left: 0px; width: 1300px; height: 400px; overflow: hidden;">
         <!-- Loading Screen -->
-        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <!-- <div u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
             <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
-        </div>
+        </div> -->
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
             height: 400px; overflow: hidden;">
