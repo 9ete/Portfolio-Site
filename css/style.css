@@ -2,6 +2,12 @@
 
 */
 
+	/*HIDE JSSOR SLIDER UNTIL FULLY LOADED*/
+	#slider1_container {
+		/*visibility:hidden; Use visibility to keep a blank placeholder*/
+		display:none;
+	}
+
 	html,
 	button,
 	input,
