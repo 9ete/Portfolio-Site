@@ -2,6 +2,7 @@
 
 ?>
             </div> <!-- #main -->
+
             <div id="development" class="main wrapper clearfix area-two development">
 
                 <article>
@@ -22,7 +23,9 @@
                     </section>
                     <section>
                         <h2>Experience</h2>
-                        <p>I started developing websites in high school (2006) with front page and pure HTML.  While attending the University of Iowa I worked on the University's web development team creating static, dynamic, and CMS based websites for different departments and organizations.  Since graduating in 2012 I created my own webdev shop, LowerMedia, which works with clients all over the United States to grow and strengthen their web presence.</p>
+                        <p>My web development career started in 2006 with Microsoft Frontpage and pure HTML building static websites in high school.  
+                            While attending the <strong>University of Iowa</strong> I worked on the University's web development team creating static, dynamic, and CMS based websites for different departments and organizations.  
+                            Since graduating in 2012 I started my own development shop, <strong>LowerMedia</strong>, which works with clients all over the United States to grow and strengthen their web presence.</p>
                     </section>
                     <section>
                         <h2>Please Checkout <br/><a href='http://lowermedia.net'>LowerMedia.Net<a/><br/> for Work Examples</h2>
