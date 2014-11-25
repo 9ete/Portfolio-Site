@@ -35,7 +35,11 @@
                     <script type="application/javascript" src="js/plugins.js"></script>
                     <script type="application/javascript" src="js/main.js"></script>
                 -->
-            <script type="application/javascript" src="/min/?b=system/petelower/js&amp;f=vendor/modernizr-2.6.2-respond-1.1.0.min.js,vendor/jquery.sticky.js,plugins.js,main.js"></script>
+            <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
+                <script type="application/javascript" src="/min/?b=system/petelower/js&amp;f=vendor/modernizr-2.6.2-respond-1.1.0.min.js,vendor/jquery.sticky.js,plugins.js,main.js"></script>
+            <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
+                <script type="application/javascript" src="/min/?b=js&amp;f=vendor/modernizr-2.6.2-respond-1.1.0.min.js,vendor/jquery.sticky.js,plugins.js,main.js"></script>
+            <? endif; ?>
 
             <?php
                 //If the user is not on mobile we will show the slider
