@@ -172,7 +172,7 @@
 
 /* ============== MOBILE: Main ============== */
 
-	.main { padding: 100px 0; }
+	.main { padding: 100px 0 0 0; }
 
 	.main article h1 { font-size: 2em; }
 
@@ -209,8 +209,6 @@
 		border-color: rgba(0,128,0, 0.8);
 	}
 
-	
-
 	.area-two article { width: 100%; }
 
 	.area-two h2 { text-align: center; }
@@ -225,8 +223,26 @@
 	.prog-lang-holder .html5-img { width: 285px; }
 
 	.github-ribbon {
-		z-index: 1;
+		z-index: 2;
 		position: relative;
+	}
+
+	.music iframe {
+		box-shadow: 0 5px 10px #aaa;
+	}
+
+	#development:before,
+	#music:before,
+	#life:before {
+		content: "***";
+		display: block;
+		margin: auto;
+		width: 92px;
+		font-size: 500%;
+		height: 50px;
+		top: -20px;
+		position: relative;
+		text-rendering: optimizeSpeed;
 	}
 
 /* ========================================================================== Media Queries ========================================================================== */
