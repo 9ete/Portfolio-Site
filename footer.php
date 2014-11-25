@@ -9,8 +9,9 @@
         </div>
 
         <!-- STYLESHEETS -->
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+        <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=style.css,normalize.min.css" />
         <!-- <link rel="stylesheet" href="css/main.css"> -->
 
         <!-- FONTS -->
