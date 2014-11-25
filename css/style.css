@@ -1,3 +1,6 @@
+
+
+
 /*
 
 */
@@ -12,9 +15,7 @@
 	button,
 	input,
 	select,
-	textarea {
-		    color: #222;
-		}
+	textarea { color: #222; }
 
 	html {
 		    font-size: 1em;
@@ -43,9 +44,7 @@
 	audio,
 	canvas,
 	img,
-	video {
-		    vertical-align: middle;
-		}
+	video { vertical-align: middle; }
 
 	fieldset {
 		    border: 0;
@@ -53,9 +52,7 @@
 		    padding: 0;
 		}
 
-	textarea {
-		    resize: vertical;
-		}
+	textarea { resize: vertical; }
 
 	.browsehappy {
 		    margin: 0.2em 0;
@@ -64,9 +61,7 @@
 		    padding: 0.2em 0;
 		}
 
-	a {
-			text-decoration:none;
-		}
+	a { text-decoration:none; }
 
 	h1,
 	h2,
@@ -94,41 +89,28 @@
 		font-family: 'Merriweather', serif;
 	}
 
+	header h2 { margin-top: 0; }
 
-	header h2 {
-			margin-top: 0;
-		}
-/* ===== Initializr Styles ================================================== */
 
-	body {
-		    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-		}
+	body { font: 16px/26px Helvetica, Helvetica Neue, Arial; }
 
 	.wrapper {
 		    width: 90%;
 		    margin: 0 5%;
 		}
 
-/* =================== ALL: Orange Theme =================== */
-
-	.header-container {
-		    border-bottom: 20px solid #e44d26;
-		}
+	.header-container { border-bottom: 20px solid #e44d26; }
 
 	.footer-container,
-	.main aside {
-		    border-top: 20px solid #e44d26;
-		}
+	.main aside { border-top: 20px solid #e44d26; }
 
 	.header-container,
 	.footer-container,
-	.main aside {
-		    background: #f16529;
-		}
+	.main aside { background: #f16529; }
 
 	
 
-/* ============== MOBILE: Menu ============== */
+/* ============== NAVIGATION ============== */
 
 	nav ul {
 		    margin: 0;
@@ -139,33 +121,60 @@
 		    display: block;
 		    margin-bottom: 10px;
 		    padding: 15px 0;
-
 		    text-align: center;
 		    text-decoration: none;
 		    font-weight: bold;
-
 		    color: white;
-		    /*background: #e44d26;*/
+		    width: 70px; 
 		}
 
 	nav a:hover,
-	nav a:visited {
-		    color: white;
-		}
+	nav a:visited { color: white; }
 
-	nav a:hover {
-		    text-decoration: underline;
-		}
+	nav li {
+	  background: linear-gradient( rgba(0,128,0, 0.5), rgba(0,128,0, 0.5) 90%, #333 10%, #333 );
+	  transition: all 0.2s ease;
+	  background-size: 100% 202%;
+	}
+
+	nav li:hover { background-position: 100% 100%; }
+	nav li:hover a { color: #48ad26; }
+	nav li:hover a span { color: white; }
+	nav li:hover a {
+	  color: #333;
+	  text-shadow: 1px 1px 1px white;
+	  text-decoration: none;
+	}
+
+	@keyframes up-bump {
+	  0% { padding-top: 2em; }
+	  50% { padding-top: 1.5em; }
+	  100% { padding-top: 2em; }
+	}
+
+	@keyframes down-bump {
+	  0% { padding-top: 2em; }
+	  50% { padding-top: 2.5em; }
+	  100% { padding-top: 2em; }
+	}
+
+	nav li {
+	  -webkit-animation-name: down-bump;
+	  -webkit-animation-duration: 0.4s;
+	  -webkit-animation-timing-function: ease;
+	}
+
+	nav li:hover {
+	  -webkit-animation-name: up-bump;
+	  -webkit-animation-duration: 0.4s;
+	  -webkit-animation-timing-function: ease;
+	}
 
 /* ============== MOBILE: Main ============== */
 
-	.main {
-		    padding: 100px 0;
-		}
+	.main { padding: 100px 0; }
 
-	.main article h1 {
-		    font-size: 2em;
-		}
+	.main article h1 { font-size: 2em; }
 
 	.main aside {
 		    color: white;
@@ -179,16 +188,9 @@
 
 /* =============== ALL: IE Fixes =============== */
 
-	.ie7 .title {
-		    padding-top: 20px;
-		}
+	.ie7 .title { padding-top: 20px; }
 
 /* ========================================================================== Custom styles ========================================================================== */
-
-
-
-
-
 
 	/* add width to header */
 	.header-container {
@@ -199,65 +201,50 @@
 	/* update background color */
 	.header-container,
 	.footer-container,
-	.main aside,
-	nav a {
+	.main aside
+	 {
 		background: rgb(0,128,0); /* The Fallback */
 		background: rgba(0,128,0, 0.5); 
 		border-color: rgba(0,128,0); /* The Fallback */
 		border-color: rgba(0,128,0, 0.8);
 	}
 
-	nav a {width:70px;}
+	
 
-	.area-two article {
-		width:100%;
-	}
+	.area-two article { width: 100%; }
 
-	.area-two h2 {
-		text-align: center;
-	}
+	.area-two h2 { text-align: center; }
 
 	.area-two p {
 		width: 70%;
 		margin: auto;
 	}
 
-	.prog-lang-holder img {
-		width:200px;
-	}
+	.prog-lang-holder img { width: 200px; }
 
-	.prog-lang-holder .html5-img {
-		width:285px;
-	}
+	.prog-lang-holder .html5-img { width: 285px; }
 
 	.github-ribbon {
 		z-index: 1;
 		position: relative;
 	}
 
-
-
-
-
-
-
-
 /* ========================================================================== Media Queries ========================================================================== */
-		@media only screen and (max-width: 480px) {
+	@media only screen and (max-width: 480px) {
 
-				nav,
-				.title {
-					float:right;
-					display: block;
-				}
+			nav,
+			.title {
+				float:right;
+				display: block;
+			}
 
-				li {
-					width: 23%;
-					display: inline-block;
-					vertical-align: bottom;
-					white-space: nowrap;
-				}
-		}
+			li {
+				width: 23%;
+				display: inline-block;
+				vertical-align: bottom;
+				white-space: nowrap;
+			}
+	}
 
 	@media only screen and (min-width: 480px) {
 
