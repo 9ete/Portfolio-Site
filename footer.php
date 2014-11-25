@@ -10,7 +10,7 @@
 
         <!-- STYLESHEETS -->
 
-            <!-- UNMINIFIED SCRIPTS -->
+            <!-- UNMINIFIED STYLES -->
                     <!-- 
                         <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
                         <link rel="stylesheet" href="css/style.css" type="text/css"> 
@@ -21,12 +21,16 @@
                 <link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Merriweather' rel='stylesheet' type='text/css'>
         
         <!-- SCRIPTS -->
-            <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-            <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script>
-            <script type="application/javascript" src="js/plugins.js"></script>
-            <script type="application/javascript" src="js/plugins.js"></script>
-            <script type="application/javascript" src="js/main.js"></script>
+
+            <!-- UNMINIFIED SCRIPTS -->
+                <!--
+                    <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                    <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+                    <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script>
+                    <script type="application/javascript" src="js/plugins.js"></script>
+                    <script type="application/javascript" src="js/main.js"></script>
+                -->
+            <script type="application/javascript" src="/min/?b=system/petelower/js&amp;f=vendor/modernizr-2.6.2-respond-1.1.0.min.js,vendor/jquery.sticky.js,plugins.js,main.js"></script>
 
             <?php
                 //If the user is not on mobile we will show the slider
