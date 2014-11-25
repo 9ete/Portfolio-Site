@@ -108,6 +108,7 @@
 	.footer-container,
 	.main aside { background: #f16529; }
 
+	.footer-container { margin-top: 50px; }
 	
 
 /* ============== NAVIGATION ============== */
