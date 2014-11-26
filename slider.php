@@ -17,7 +17,7 @@
             height: 400px; overflow: hidden;">
             <div>
                 <!-- <img u="image" src="../slider/img/1920/red.jpg" /> -->
-                <img u="image" src="img/seattle-bridge-web-developer-pete-lower-wordpress-php.JPG" />
+                <img u="image" src="img/seattle-bridge-web-developer-pete-lower-wordpress-drupal-php.jpg" />
                 <!-- <div u="caption" t="NO" t3="RTT|2" r3="137.5%" du3="3000" d3="500" style="position: absolute; width: 445px; height: 300px; top: 100px; left: 600px;">
                     <img src="../slider/img/new-site/c-phone.png" style="position: absolute; width: 445px; height: 300px; top: 0px; left: 0px;" />
                     <img u="caption" t="CLIP|LR" du="4000" t2="NO" src="../slider/img/new-site/c-jssor-slider.png" style="position: absolute; width: 102px; height: 78px; top: 70px; left: 130px;" />
@@ -27,8 +27,8 @@
                 </div> -->
                 <div u="caption" t="RTT|2" r="-75%" du="1600" d="2500" t2="NO" style="position: absolute; width: 470px; height: 220px; top: 120px; left: 650px;">
                     <img src="img/c-phone-horizontal.png" style="position: absolute; width: 470px; height: 220px; top: 0px; left: 0px;" />
-                    <img u="caption" t3="MCLIP|L" du3="2000" src="img/nacho-driving-ipad.PNG" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
-                    <img u="caption" t="MCLIP|R" du="2000" t2="NO" src="img/european-motors-web-development.jpg" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
+                    <img u="caption" t3="MCLIP|L" du3="2000" src="img/seattle-drupal-developer-tacoma-pete-lower-web-php-wordpress.jpg" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
+                    <img u="caption" t="MCLIP|R" du="2000" t2="NO" src="img/seattle-wordpress-developer-tacoma-pete-lower-web-php-drupal.jpg" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
                     <img u="caption" t="RTTL|BR" x="500%" y="500%" du="1000" d="-3000" r="-30%" t3="L" x3="70%" du3="1600" src="img/c-finger-pointing.png" style="position: absolute; width: 257px; height: 300px; top: 80px; left: 200px;" />
                     <img src="img/c-navigator-horizontal.png" style="position: absolute; width: 379px; height: 213px; top: 4px; left: 45px;" />
                 </div>
@@ -44,7 +44,7 @@
             </div>
             <div>
                 <!-- <img u="image" src="../slider/img/1920/purple.jpg" /> -->
-                <img u="image" src="img/seattle-web-developer-pete-lower-wordpress-php.JPG" />
+                <img u="image" src="img/seattle-web-developer-tacoma-pete-lower-wordpress-php-drupal.jpg" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #FFFFFF;font-family:'Changa One', cursive;">Emerald City
@@ -57,7 +57,7 @@
             </div>
             <div>
                <!--  <img u="image" src="../slider/img/1920/blue.jpg" /> -->
-               <img u="image" src="img/in-studio-pete-lower-seattle-rock-band.jpg" />
+               <img u="image" src="img/in-studio-pete-lower-seattle-musician-rock-band.jpg" />
                 <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 120px; padding: 5px;
                     text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #FFFFFF;"><!-- over slider text -->
