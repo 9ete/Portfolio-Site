@@ -70,7 +70,7 @@ function plScriptsStyles() { ?>
         <!-- STYLESHEETS -->
             <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
             <link rel="stylesheet" href="css/style.css" type="text/css"> 
-            <?php if(check_mobile()) : ?>
+            <?php if(is_mobile()) : ?>
                 <link href="css/jssor.css" rel="stylesheet" type="text/css"> 
             <? endif; ?>
 
@@ -80,7 +80,7 @@ function plScriptsStyles() { ?>
             <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script>
 
         <!-- SLIDER SCRIPTS/STYLES -->
-            <?php if(!check_mobile()) : ?>
+            <?php if(!is_mobile()) : ?>
                 
                 <!-- it works the same with all jquery version from 1.x to 2.x -->
                 <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
