@@ -88,7 +88,7 @@
 
                 <aside>
                     <h4>Gas Works Park</h4>
-                    <p><img width='278' src='img/pete-kelsey-seattle.jpg' /></p>
+                    <p><img width='278' src='img/seattle-tacoma-web-developer-wordpress-drupal-php-pete-lower.jpg' /></p>
                 </aside>
 
             </div> <!-- #main -->
