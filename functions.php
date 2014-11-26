@@ -18,6 +18,8 @@ function plScriptsStyles() { ?>
     <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
+    <!-- <script type="application/javascript" src="https://clients-oriented-ftp.googlecode.com/svn-history/r203/trunk/includes/js/bootstrap/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+
 
     <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
 
