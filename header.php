@@ -25,6 +25,7 @@
         <title>Pete Lower | Musician and Programmer</title>
         <meta name="description" content="I'm Pete Lower, I write code for the Internet (PHP, Javascript) and make music (i9mh.com).">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <?php plScriptsStyles() ?>
     </head>
     <body>
         <!--[if lt IE 7]>
