@@ -70,7 +70,7 @@ function plScriptsStyles() { ?>
         <!-- STYLESHEETS -->
             <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
             <link rel="stylesheet" href="css/style.css" type="text/css"> 
-            <?php if(is_mobile()) : ?>
+            <?php if(!is_mobile()) : ?>
                 <link href="css/jssor.css" rel="stylesheet" type="text/css"> 
             <? endif; ?>
 
