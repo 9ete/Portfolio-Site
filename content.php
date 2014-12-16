@@ -97,7 +97,6 @@
                             <br/>
                         	<a href='tel:+13195941786'>319 594 1786</a>
                         </p>
-                        <?php //outputContactForm(); ?>
                     </section>
                     
                     <footer>
