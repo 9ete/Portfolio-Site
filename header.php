@@ -48,5 +48,5 @@
             </header>
         </div>
 
-        <div class="main-container">
+        <div id="main-container" class="main-container">
             
