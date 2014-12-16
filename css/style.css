@@ -89,6 +89,8 @@
 		font-family: 'Merriweather', serif;
 	}
 
+	iframe { border:none; }
+
 	header h2 { margin-top: 0; }
 
 
@@ -209,6 +211,21 @@
 		border-color: rgba(0,128,0); /* The Fallback */
 		border-color: rgba(0,128,0, 0.8);
 	}
+
+	.gravatar-holder {
+		width: 150px;
+		margin-top: 60px;
+		margin:auto;
+		margin-top:60px;
+	}
+
+	.gravatar-holder img { 
+		border-radius: 100px;
+		box-shadow: 1px 1px 11px darkgray;
+		border-width: 5px;
+		border-style: dotted;
+		border-color: darkgreen;
+ 	}
 
 	.area-two article { width: 100%; }
 
