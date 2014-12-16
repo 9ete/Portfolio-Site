@@ -94,8 +94,10 @@
                         <h2>Looking for a LAMP, WordPress or Drupal Developer?</h2>
                         <p>Contact me today: <br/>
                         	<a href='mailto:pete@petelower.com'>pete@petelower.com</a>
+                            Pete@petelower.com
                             <br/>
                         	<a href='tel:+13195941786'>319 594 1786</a>
+                            <a href='mailto:pete@petelower.com'>pete@petelower.com</a>
                         </p>
                         <?php //outputContactForm(); ?>
                     </section>
