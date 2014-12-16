@@ -93,7 +93,13 @@
                     <section>
                         <h2>Looking for a LAMP, WordPress or Drupal Developer?</h2>
                         <p>Contact me today: <br/>
-                        	<a href='mailto:pete@petelower.com'>pete@petelower.com</a>
+                            <!--email_off-->
+                        	<a href='mailto:pete@petelower.com'>pete@petelower.com
+                                <script data-cf-hash="f9e31" type="text/javascript">
+                                /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */
+                                </script>
+                            </a>
+                            <!--/email_off-->
                             <br/>
                         	<a href='tel:+13195941786'>319 594 1786</a>
                         </p>
