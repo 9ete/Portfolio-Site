@@ -2,7 +2,9 @@
 
 ?>
             
-
+            <div id='gravatar-holder' class='gravatar-holder'>
+                <img alt="" class="avatar" data-user="1033613" height="150" src="https://avatars3.githubusercontent.com/u/1033613?v=3&amp;s=460" width="150">
+            </div>
             <div id="development" class="main wrapper clearfix area-two development">
 
                 <article>
@@ -89,11 +91,13 @@
                         <p>I'm currently living it up in Seattle making music and working with local businesses to create dynamic web applications.</p>
                     </header>
                     <section>
-                        <h2>Looking for a PHP, WordPress or Drupal Developer?</h2>
+                        <h2>Looking for a LAMP, WordPress or Drupal Developer?</h2>
                         <p>Contact me today: <br/>
-                        	<a href='mailto:pete@petelower.com'>pete@petelower.com</a><br/>
-                        	<a href='tel:+13195941786'>319 594 1786</a></p>
-                        	<?php //outputContactForm(); ?>
+                        	<a href='mailto:pete@petelower.com'>pete@petelower.com</a>
+                            <br/>
+                        	<a href='tel:+13195941786'>319 594 1786</a>
+                        </p>
+                        <?php //outputContactForm(); ?>
                     </section>
                     
                     <footer>
