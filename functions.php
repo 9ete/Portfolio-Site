@@ -25,7 +25,7 @@ function plScriptsStyles() { ?>
     </script>
 
     <!-- FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster%7CChanga+One%7CMerriweather' rel='stylesheet' property="stylesheet" type='text/css'>
 
     <!-- MINIFIED SCRIPTS -->
     <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -35,9 +35,9 @@ function plScriptsStyles() { ?>
 
         <!-- STYLESHEETS -->
             <?php if(is_mobile()) : ?>
-                <link type="text/css" rel="stylesheet" href="min/?b=system/petelower/css&amp;f=normalize.min.css,style.css" />
+                <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=system/petelower/css&amp;f=normalize.min.css,style.css" />
             <?php else : ?>
-                <link type="text/css" rel="stylesheet" href="min/b=system/petelower/css&amp;f=jssor.css,normalize.min.css,style.css" />
+                <link type="text/css" rel="stylesheet" property="stylesheet" href="min/b=system/petelower/css&amp;f=jssor.css,normalize.min.css,style.css" />
             <?php endif; ?>
 
         <!-- SCRIPTS -->
@@ -52,9 +52,9 @@ function plScriptsStyles() { ?>
 
         <!-- STYLESHEETS -->
             <?php if(is_mobile()) : ?>
-                <link type="text/css" rel="stylesheet" href="min/?b=css&amp;f=normalize.min.css,style.css" />
+                <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=css&amp;f=normalize.min.css,style.css" />
             <?php else : ?>
-                <link type="text/css" rel="stylesheet" href="min/?b=css&amp;f=jssor.css,normalize.min.css,style.css" />
+                <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=css&amp;f=jssor.css,normalize.min.css,style.css" />
             <?php endif; ?>
 
         <!-- SCRIPTS -->
@@ -68,10 +68,10 @@ function plScriptsStyles() { ?>
     <? else : ?><!-- UNMINIFIED -->
 
         <!-- STYLESHEETS -->
-            <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
-            <link rel="stylesheet" href="css/style.css" type="text/css"> 
+            <link rel="stylesheet" property="stylesheet" href="css/normalize.min.css" type="text/css">
+            <link rel="stylesheet" property="stylesheet" href="css/style.css" type="text/css"> 
             <?php if(!is_mobile()) : ?>
-                <link href="css/jssor.css" rel="stylesheet" type="text/css"> 
+                <link href="css/jssor.css" rel="stylesheet" property="stylesheet" type="text/css"> 
             <? endif; ?>
 
         <!-- SCRIPTS -->
