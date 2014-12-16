@@ -48,7 +48,7 @@ function plScriptsStyles() { ?>
                 <script type="text/javascript" src="min/b=system/petelower/js/vendor/jssor&amp;f=jssor.js,jssor.slider.js,jssor.slider.settings.js"></script>
             <? endif; ?>
 
-    <?php elseif ($_SERVER['SERVER_NAME']=='petelower.com') : ?>
+    <?php elseif ($_SERVER['SERVER_NAME']=='peterlower.com') : ?>
 
         <!-- STYLESHEETS -->
             <?php if(is_mobile()) : ?>
