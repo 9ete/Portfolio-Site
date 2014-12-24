@@ -3,7 +3,7 @@
 ?>
             
             <div id='gravatar-holder' class='gravatar-holder'>
-                <img alt="" class="avatar" data-user="1033613" height="150" src="https://avatars3.githubusercontent.com/u/1033613?v=3&amp;s=460" width="150">
+                <img alt="Github User Account Link" class="avatar" data-user="1033613" height="150" src="https://avatars3.githubusercontent.com/u/1033613" width="150">
             </div>
             <div id="development" class="main wrapper clearfix area-two development">
 
@@ -50,12 +50,20 @@
                         <h2>Item 9 & The Mad Hatters - Self Titled</h2>
                         <!--<h3> (Recorded Guitar, Vocals, Wrote and Produced) </h3>-->
                          <!-- scrolling="no" frameborder="no" -->
-                        <iframe 
+                        <!-- <iframe 
                             width="515" 
                             height="450" 
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/34158255&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
                             >
-                        </iframe>
+                        </iframe> -->
+                        <img 
+                            id="soundcloud-player-placeholderimage"
+                            width='515'
+                            height='450' 
+                            src='img/item-9-and-the-mad-hatters-soundcloud-placeholder.png' 
+                            alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
+                            data-video="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/34158255&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                        />
                     </section>
                     
                     <footer>
@@ -66,20 +74,10 @@
 
                 <aside>
                     <h4>Item 9 & The Mad Hatters - They're Watchin' You</h4><!-- frameborder="0" -->
-                    <iframe 
-                        width="287" 
-                        height="161" 
-                        src="//www.youtube.com/embed/Z5NtNKJMrTg" 
-                        allowfullscreen>
-                    </iframe>
+                    <center><div class="youtube" id="Z5NtNKJMrTg" style="width: 287px; height: 161px;"></div></center>
                     <br />
                     <h4>Item 9 & The Mad Hatters - The Fall of Gondolin</h4><!-- frameborder="0" -->
-                    <iframe 
-                        width="287"     
-                        height="161" 
-                        src="//www.youtube.com/embed/u9Aof9DYEUQ"  
-                        allowfullscreen>
-                    </iframe>
+                    <center><div class="youtube" id="u9Aof9DYEUQ" style="width: 287px; height: 161px;"></div></center>
                 </aside>
 
             </div> <!-- #music -->
@@ -117,7 +115,8 @@
                         <img 
                             width='278' 
                             src='img/seattle-tacoma-web-developer-wordpress-drupal-php-pete-lower.jpg' 
-                            alt="Seattle LAMP Developer and WordPress Expert Pete Lower" />
+                            alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
+                        />
                     </p>
                 </aside>
 
