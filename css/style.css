@@ -181,7 +181,7 @@
 
 	.main aside {
 		    color: white;
-		    padding: 0px 5% 10px;
+		    padding: 0 5% 10px;
 		}
 
 	.footer-container footer {
@@ -192,6 +192,70 @@
 /* =============== ALL: IE Fixes =============== */
 
 	.ie7 .title { padding-top: 20px; }
+
+/* =============== JSSOR SLIDER STYLES =============== */
+    .slides,
+    .slide-text,
+    .slide-title,
+    .caption,
+    .caption-image,
+    .jssorb21,
+    .prototype {position:absolute;}
+        
+    .slider1_container,
+    .slides {
+        top: 0; 
+        left: 0; 
+        width: 1300px; 
+        height: 400px; 
+        overflow: hidden;
+    }
+
+    .slider1_container {
+        position: relative; 
+        margin: 0 auto;
+    }
+
+    .slides { cursor: move; }
+
+	.slide-title,
+	.slide-text {
+        width: 480px; 
+        height: 120px; 
+        left: 120px; 
+        padding: 5px;
+        text-align: left; 
+        color: #FFFFFF;
+    }
+
+    .slide-title {
+        top: 30px; 
+        line-height: 60px; 
+        text-transform: uppercase; 
+        font-size: 50px;
+        color: #FFFFFF;
+        font-family:'Lobster', cursive;
+    }
+
+    .slide-text {
+        top: 300px; 
+        line-height: 36px; 
+        font-size: 30px;
+        color: #FFFFFF;
+        font-family:'Changa One', cursive;
+    }
+
+    .caption                { width: 470px; height: 220px; top: 120px; left: 650px;}
+    .caption-image-one      { width: 470px; height: 220px; top: 0; left: 0;}
+    .caption-image-two      { width: 379px; height: 213px; top: 4px; left: 45px;}
+    .caption-image-three    { width: 379px; height: 213px; top: 4px; left: 45px;}
+    .caption-image-four     { width: 257px; height: 300px; top: 80px; left: 200px;}
+    .caption-image-five     { width: 379px; height: 213px; top: 4px; left: 45px;}
+    /*.jssorb21               { bottom: 26px; left: 6px;}*/
+    .prototype              { width: 19px; height: 19px; text-align:center; line-height:19px; color:white; font-size:12px;}
+    .jssora21l              { width: 55px; height: 55px; top: 123px; left: 8px;}
+    .jssora21r          	{ width: 55px; height: 55px; top: 123px; right: 8px}
+
 
 /* ========================================================================== Custom styles ========================================================================== */
 
