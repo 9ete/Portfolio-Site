@@ -7,13 +7,6 @@ module.exports = function (grunt) {
                     'css/*'
                 ],
                 dest: 'combined.css'
-            },
-            js: {
-		expand: true,
-                src: [
-                    'js/*'
-                ],
-                dest: 'combined.js'
             }
         },
         cssmin: {
@@ -25,16 +18,14 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 files: {
-                    'combined.min.js' : ['combined.js/js/*.js'], // Actual pattern(s) to match.
-          	    dest: 'combined',   // Destination path prefix.
-          	    ext: '.min.js'    // Dest filepaths will have this extension.']
+                    'combined.min.js' : ['js/*.js'] // Actual pattern(s) to match.
                 }
             }
-        },
+        }
     });
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.registerTask('default', ['concat:css', 'cssmin:css', 'concat:js', 'uglify:js']);
+    grunt.registerTask('default', ['concat:css', 'cssmin:css', 'uglify:js']);
 };
