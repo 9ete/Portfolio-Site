@@ -7,6 +7,6 @@
                 <h4>&copy; <?php echo date('Y'); ?> Pete Lower</h4>
             </footer>
         </div>
-        <?php plScriptsStyles() ?>
+        <?php petelower_return_assets() ?>
     </body>
 </html>
