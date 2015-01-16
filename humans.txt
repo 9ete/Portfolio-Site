@@ -3,11 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Pete Lower -- Developer -- @9eteyGreen
 
 # THANKS
 
-    <name>
 
 # TECHNOLOGY COLOPHON
 
