@@ -24,77 +24,15 @@ function plScriptsStyles() { ?>
 
     </script>
 
-    <!-- FONTS -->
+    <!-- STYLES -->
     <link href='http://fonts.googleapis.com/css?family=Lobster%7CChanga+One%7CMerriweather' rel='stylesheet' property="stylesheet" type='text/css'>
-
-    <!-- MINIFIED SCRIPTS
-    <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="application/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
-
-    <script type="text/javascript" src="combined.min.js"></script>
     <link type="text/css" rel="stylesheet" property="stylesheet" href="combined.min.css" />
 
+    <!-- MINIFIED SCRIPTS -->
+    <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="combined.min.js"></script>
 
-    <?php if ($_SERVER['SERVER_NAME']=='dev.petelower.com') : ?>
-
-        <!-- STYLESHEETS -->
-            <?php if(is_mobile()) : ?>
-                <!-- <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=system/petelower/css&amp;f=normalize.min.css,style.css" /> -->
-            <?php else : ?>
-                <!-- <link type="text/css" rel="stylesheet" property="stylesheet" href="min/b=system/petelower/css&amp;f=jssor.css,normalize.min.css,style.css" /> -->
-            <?php endif; ?>
-            
-
-        <!-- SCRIPTS -->
-            <!-- <script type="text/javascript" src="min/b=system/petelower/js&amp;f=plugins.js,main.js,vendor/jquery.sticky.js"></script> -->
-
-            
-
-        <!-- SLIDER SCRIPTS -->
-            <?php if(!is_mobile()) : ?>
-                <!-- <script type="text/javascript" src="min/b=system/petelower/js/vendor/jssor&amp;f=jssor.js,jssor.slider.js,jssor.slider.settings.js"></script> -->
-            <? endif; ?>
-
-    <?php elseif ($_SERVER['SERVER_NAME']=='peterlower.com') : ?>
-
-        <!-- STYLESHEETS -->
-            <?php if(is_mobile()) : ?>
-               <!--  <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=css&amp;f=normalize.min.css,style.css" /> -->
-            <?php else : ?>
-               <!--  <link type="text/css" rel="stylesheet" property="stylesheet" href="min/?b=css&amp;f=jssor.css,normalize.min.css,style.css" /> -->
-            <?php endif; ?>
-
-        <!-- SCRIPTS 
-            <script type="text/javascript" src="min/b=js&amp;f=plugins.js,main.js,vendor/jquery.sticky.js"></script> -->
-
-        <!-- SLIDER SCRIPTS/STYLES -->
-            <?php if(!is_mobile()) : ?>
-                <!-- <script type="text/javascript" src="min/b=js/vendor/jssor&amp;f=jssor.js,jssor.slider.js,jssor.slider.settings.js"></script> -->
-            <? endif; ?>
-
-    <? else : ?><!-- UNMINIFIED -->
-
-        <!-- STYLESHEETS
-            <link rel="stylesheet" property="stylesheet" href="css/normalize.min.css" type="text/css">
-            <link rel="stylesheet" property="stylesheet" href="css/style.css" type="text/css">  -->
-            <?php if(!is_mobile()) : ?>
-            <!--     <link href="css/jssor.css" rel="stylesheet" property="stylesheet" type="text/css">  -->
-            <? endif; ?>
-
-        <!-- SCRIPTS 
-            <script type="application/javascript" src="js/plugins.js"></script>
-            <script type="application/javascript" src="js/main.js"></script>
-            <script type="application/javascript" src="js/vendor/jquery.sticky.js"></script> -->
-
-        <!-- SLIDER SCRIPTS/STYLES -->
-            <?php if(!is_mobile()) : ?>
-                
-                <!-- it works the same with all jquery version from 1.x to 2.x -->
-                <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
-                <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js)
-                <script type="application/javascript" src="js/vendor/jssor/jssor.js"></script>
-                <script type="application/javascript" src="js/vendor/jssor/jssor.slider.js"></script>
-                <script type="application/javascript" src="js/vendor/jssor/jssor.slider.settings.js"></script> -->
-            <? endif; 
-    endif;
-} ?>
+    
+<?php
+}
+?>
