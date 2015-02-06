@@ -21,7 +21,17 @@ module.exports = function (grunt) {
                     'combined.min.js' : ['js/*.js'] // Actual pattern(s) to match.
                 }
             }
-        }
+        },
+	watch: {
+	  css: {
+	    files: 'css/*.css',
+	    tasks: ['concat','cssmin']
+	  },
+	  scripts: {
+	    files: 'js/*.js',
+	    tasks: ['uglify']
+	  }
+	}
     });
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
