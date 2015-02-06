@@ -593,6 +593,7 @@ table {
 	html {
 		    font-size: 1em;
 		    line-height: 1.4;
+		    background-image:url(/img/background.png);
 		}
 
 	::-moz-selection {
