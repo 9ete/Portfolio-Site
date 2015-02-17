@@ -51,10 +51,10 @@
                         alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
                     />
                 </div>
-                <div id="slide-title" class="slide-title">
+                <div id="slide-one-title" class="slide-title">
                         Welcome!
                 </div>
-                <div id="slide-text" class="slide-text">
+                <div id="slide-one-text" class="slide-text">
                        I'm Pete Lower, you're friendly neighborhood programmer!
                 </div>
             </div>
@@ -64,10 +64,10 @@
                     src="img/seattle-web-developer-tacoma-pete-lower-wordpress-php-drupal.jpg" 
                     alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
                 />
-                <div id="slide-title" class="slide-title">
+                <div id="slide-two-title" class="slide-title">
                     Emerald City
                 </div>
-                <div id="slide-text" class="slide-text">
+                <div id="slide-two-text" class="slide-text">
                     <!-- over slider text -->
                 </div>
             </div>
@@ -77,10 +77,10 @@
                     src="img/in-studio-pete-lower-seattle-musician-rock-band.jpg" 
                     alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
                 />
-                <div id="slide-text" class="slide-text">
+                <div id="slide-three-text" class="slide-text">
                     <!-- over slider text -->
                 </div>
-                <div id="slide-text" class="slide-text">
+                <div id="slide-three-text" class="slide-text">
                     In Studio<!-- over slider text -->
                 </div>
             </div>
