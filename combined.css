@@ -885,6 +885,10 @@ table {
 
 	.music iframe {
 		box-shadow: 0 5px 10px #aaa;
+		width: 287px;
+		height: 161px;
+		margin: auto;
+		display: block;
 	}
 
 	#development:before,
