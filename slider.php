@@ -77,8 +77,8 @@
                     src="img/in-studio-pete-lower-seattle-musician-rock-band.jpg" 
                     alt="Seattle LAMP Developer and WordPress Expert Pete Lower" 
                 />
-                <div id="slide-three-text" class="slide-text">
-                    <!-- over slider text -->
+                <div id="slide-three-title" class="slide-title">
+                    <!-- over slider title -->
                 </div>
                 <div id="slide-three-text" class="slide-text">
                     In Studio<!-- over slider text -->
