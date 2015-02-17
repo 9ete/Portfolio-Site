@@ -74,10 +74,10 @@
 
                 <aside>
                     <h4>Item 9 & The Mad Hatters - They're Watchin' You</h4><!-- frameborder="0" -->
-                    <center><div class="youtube" id="Z5NtNKJMrTg" style="width: 287px; height: 161px;"></div></center>
+                    <div class="youtube" id="Z5NtNKJMrTg" style="width: 287px; height: 161px;"></div>
                     <br />
                     <h4>Item 9 & The Mad Hatters - The Fall of Gondolin</h4><!-- frameborder="0" -->
-                    <center><div class="youtube" id="u9Aof9DYEUQ" style="width: 287px; height: 161px;"></div></center>
+                    <div class="youtube" id="u9Aof9DYEUQ" style="width: 287px; height: 161px;"></div>
                 </aside>
 
             </div> <!-- #music -->
