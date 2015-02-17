@@ -273,7 +273,7 @@
 	 {
 		background: rgb(0,128,0); /* The Fallback */
 		background: rgba(0,128,0, 0.5); 
-		border-color: rgba(0,128,0); /* The Fallback */
+		border-color: rgb(0,128,0); /* The Fallback */
 		border-color: rgba(0,128,0, 0.8);
 	}
 
