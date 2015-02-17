@@ -296,14 +296,15 @@
 
 	.area-two h2 { text-align: center; }
 
-	.area-two p {
-		width: 70%;
-		margin: auto;
+	.prog-lang-holder img { 
+		width: 36%;
+		max-width: 200px; 
 	}
 
-	.prog-lang-holder img { width: 200px; }
-
-	.prog-lang-holder .html5-img { width: 285px; }
+	.prog-lang-holder .html5-img { 
+		width: 50%;
+		max-width: 285px; 
+	}
 
 	.github-ribbon {
 		z-index: 2;
@@ -312,10 +313,14 @@
 
 	.music iframe {
 		box-shadow: 0 5px 10px #aaa;
-		width: 287px;
-		height: 161px;
 		margin: auto;
 		display: block;
+	}
+
+	.music img {
+		margin:10px auto;
+		display:block;
+		max-width: 100%;
 	}
 
 	#development:before,
@@ -448,12 +453,6 @@
 		h1, h2, h3, h4 {
 			text-align: center;
 		}
-
-		p {
-			width: 70%;
-			margin: auto;
-		}
-
 
 		article {
 					width: 90%;
